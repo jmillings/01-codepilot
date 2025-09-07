@@ -1,4 +1,40 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Give the header a blue background and white text */
+header {
+    background-color: rgb(112, 112, 163);
+    color: rgb(12, 5, 5);
+    padding: 10px;
+    text-align: center;
+}
+header
+
+nav {
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: #2e0ca8;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+nav ul li a:hover {
+    background: #b30009;
 }
